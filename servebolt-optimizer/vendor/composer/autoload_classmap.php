@@ -170,6 +170,7 @@ return array(
     'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgePrefixInterface' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgePrefixInterface.php',
     'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeTagInterface' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgeTagInterface.php',
     'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeUrlInterface' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgeUrlInterface.php',
+    'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeValidateUrlCandidate' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgeValidateUrlCandidate.php',
     'Servebolt\\Optimizer\\CachePurge\\PurgeObject\\ObjectTypes\\Cachetag' => $baseDir . '/src/Servebolt/CachePurge/PurgeObject/ObjectTypes/Cachetag.php',
     'Servebolt\\Optimizer\\CachePurge\\PurgeObject\\ObjectTypes\\Post' => $baseDir . '/src/Servebolt/CachePurge/PurgeObject/ObjectTypes/Post.php',
     'Servebolt\\Optimizer\\CachePurge\\PurgeObject\\ObjectTypes\\SharedMethods' => $baseDir . '/src/Servebolt/CachePurge/PurgeObject/ObjectTypes/SharedMethods.php',

@@ -205,6 +205,7 @@ class ComposerStaticInit7e493e81210a34d0796d3a214252c52a
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgePrefixInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgePrefixInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeTagInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeTagInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeUrlInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeUrlInterface.php',
+        'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeValidateUrlCandidate' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeValidateUrlCandidate.php',
         'Servebolt\\Optimizer\\CachePurge\\PurgeObject\\ObjectTypes\\Cachetag' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/PurgeObject/ObjectTypes/Cachetag.php',
         'Servebolt\\Optimizer\\CachePurge\\PurgeObject\\ObjectTypes\\Post' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/PurgeObject/ObjectTypes/Post.php',
         'Servebolt\\Optimizer\\CachePurge\\PurgeObject\\ObjectTypes\\SharedMethods' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/PurgeObject/ObjectTypes/SharedMethods.php',
