@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7e493e81210a34d0796d3a214252c52a
+class ComposerStaticInit9c6a263aa17a3f3b9562c540adb04ad7
 {
     public static $files = array (
         '9f223de0e828b8ed07e6618349e47d68' => __DIR__ . '/../..' . '/src/Servebolt/Helpers/Helpers.php',
@@ -203,6 +203,7 @@ class ComposerStaticInit7e493e81210a34d0796d3a214252c52a
         'Servebolt\\Optimizer\\CachePurge\\Drivers\\ServeboltDriverTrait' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Drivers/ServeboltDriverTrait.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeAllInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeAllInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgePrefixInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgePrefixInterface.php',
+        'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeServerInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeServerInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeTagInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeTagInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeUrlInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeUrlInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeValidateUrlCandidate' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeValidateUrlCandidate.php',
@@ -483,9 +484,9 @@ class ComposerStaticInit7e493e81210a34d0796d3a214252c52a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7e493e81210a34d0796d3a214252c52a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7e493e81210a34d0796d3a214252c52a::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit7e493e81210a34d0796d3a214252c52a::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9c6a263aa17a3f3b9562c540adb04ad7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9c6a263aa17a3f3b9562c540adb04ad7::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit9c6a263aa17a3f3b9562c540adb04ad7::$classMap;
 
         }, null, ClassLoader::class);
     }

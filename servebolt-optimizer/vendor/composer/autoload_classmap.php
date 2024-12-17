@@ -168,6 +168,7 @@ return array(
     'Servebolt\\Optimizer\\CachePurge\\Drivers\\ServeboltDriverTrait' => $baseDir . '/src/Servebolt/CachePurge/Drivers/ServeboltDriverTrait.php',
     'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeAllInterface' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgeAllInterface.php',
     'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgePrefixInterface' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgePrefixInterface.php',
+    'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeServerInterface' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgeServerInterface.php',
     'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeTagInterface' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgeTagInterface.php',
     'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeUrlInterface' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgeUrlInterface.php',
     'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeValidateUrlCandidate' => $baseDir . '/src/Servebolt/CachePurge/Interfaces/CachePurgeValidateUrlCandidate.php',

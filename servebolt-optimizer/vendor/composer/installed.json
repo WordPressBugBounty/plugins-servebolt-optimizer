@@ -752,17 +752,17 @@
         },
         {
             "name": "servebolt/sdk",
-            "version": "1.2.8",
-            "version_normalized": "1.2.8.0",
+            "version": "1.2.9",
+            "version_normalized": "1.2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Servebolt/php-sdk.git",
-                "reference": "9bda10f00de3b0cf97826499a9c097341199e891"
+                "reference": "7c3cda707237d747b4c8a04bb56a9eae4e657046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Servebolt/php-sdk/zipball/9bda10f00de3b0cf97826499a9c097341199e891",
-                "reference": "9bda10f00de3b0cf97826499a9c097341199e891",
+                "url": "https://api.github.com/repos/Servebolt/php-sdk/zipball/7c3cda707237d747b4c8a04bb56a9eae4e657046",
+                "reference": "7c3cda707237d747b4c8a04bb56a9eae4e657046",
                 "shasum": ""
             },
             "require": {
@@ -780,7 +780,7 @@
                 "squizlabs/php_codesniffer": "^3.5",
                 "vlucas/phpdotenv": "^5.3"
             },
-            "time": "2024-10-01T09:45:31+00:00",
+            "time": "2024-12-17T07:53:21+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -808,7 +808,7 @@
             "homepage": "https://servebolt.com",
             "support": {
                 "issues": "https://github.com/Servebolt/php-sdk/issues",
-                "source": "https://github.com/Servebolt/php-sdk/tree/1.2.8"
+                "source": "https://github.com/Servebolt/php-sdk/tree/1.2.9"
             },
             "install-path": "../servebolt/sdk"
         },
