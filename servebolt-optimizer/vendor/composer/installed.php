@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'servebolt/servebolt-wp-optimize-plugin',
-        'pretty_version' => '3.5.47',
-        'version' => '3.5.47.0',
-        'reference' => '9a6a83be6733407a7dc42c7032064d95cf8c4200',
+        'pretty_version' => '3.5.48',
+        'version' => '3.5.48.0',
+        'reference' => 'a72afbfd0be29c15d6c143faeab788efeb62ee8b',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -131,9 +131,9 @@
             'dev_requirement' => false,
         ),
         'servebolt/servebolt-wp-optimize-plugin' => array(
-            'pretty_version' => '3.5.47',
-            'version' => '3.5.47.0',
-            'reference' => '9a6a83be6733407a7dc42c7032064d95cf8c4200',
+            'pretty_version' => '3.5.48',
+            'version' => '3.5.48.0',
+            'reference' => 'a72afbfd0be29c15d6c143faeab788efeb62ee8b',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
