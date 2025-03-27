@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit232757fca5383611c8301d48a025de0f
+class ComposerStaticInit170747eb4514f32b004a94031e69b8ef
 {
     public static $files = array (
         '9f223de0e828b8ed07e6618349e47d68' => __DIR__ . '/../..' . '/src/Servebolt/Helpers/Helpers.php',
@@ -484,9 +484,9 @@ class ComposerStaticInit232757fca5383611c8301d48a025de0f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit232757fca5383611c8301d48a025de0f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit232757fca5383611c8301d48a025de0f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit232757fca5383611c8301d48a025de0f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit170747eb4514f32b004a94031e69b8ef::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit170747eb4514f32b004a94031e69b8ef::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit170747eb4514f32b004a94031e69b8ef::$classMap;
 
         }, null, ClassLoader::class);
     }
