@@ -196,6 +196,7 @@ class ComposerStaticInit170747eb4514f32b004a94031e69b8ef
         'Servebolt\\Optimizer\\Api\\Cloudflare\\Cloudflare' => __DIR__ . '/../..' . '/src/Servebolt/Api/Cloudflare/Cloudflare.php',
         'Servebolt\\Optimizer\\Api\\Servebolt\\Servebolt' => __DIR__ . '/../..' . '/src/Servebolt/Api/Servebolt/Servebolt.php',
         'Servebolt\\Optimizer\\AssetAutoVersion\\AssetAutoVersion' => __DIR__ . '/../..' . '/src/Servebolt/AssetAutoVersion/AssetAutoVersion.php',
+        'Servebolt\\Optimizer\\CachePurge\\BrowserManagment' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/BrowserManagment.php',
         'Servebolt\\Optimizer\\CachePurge\\CachePurge' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/CachePurge.php',
         'Servebolt\\Optimizer\\CachePurge\\Drivers\\Cloudflare' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Drivers/Cloudflare.php',
         'Servebolt\\Optimizer\\CachePurge\\Drivers\\Servebolt' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Drivers/Servebolt.php',

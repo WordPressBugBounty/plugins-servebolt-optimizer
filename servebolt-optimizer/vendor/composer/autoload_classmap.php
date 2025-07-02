@@ -161,6 +161,7 @@ return array(
     'Servebolt\\Optimizer\\Api\\Cloudflare\\Cloudflare' => $baseDir . '/src/Servebolt/Api/Cloudflare/Cloudflare.php',
     'Servebolt\\Optimizer\\Api\\Servebolt\\Servebolt' => $baseDir . '/src/Servebolt/Api/Servebolt/Servebolt.php',
     'Servebolt\\Optimizer\\AssetAutoVersion\\AssetAutoVersion' => $baseDir . '/src/Servebolt/AssetAutoVersion/AssetAutoVersion.php',
+    'Servebolt\\Optimizer\\CachePurge\\BrowserManagment' => $baseDir . '/src/Servebolt/CachePurge/BrowserManagment.php',
     'Servebolt\\Optimizer\\CachePurge\\CachePurge' => $baseDir . '/src/Servebolt/CachePurge/CachePurge.php',
     'Servebolt\\Optimizer\\CachePurge\\Drivers\\Cloudflare' => $baseDir . '/src/Servebolt/CachePurge/Drivers/Cloudflare.php',
     'Servebolt\\Optimizer\\CachePurge\\Drivers\\Servebolt' => $baseDir . '/src/Servebolt/CachePurge/Drivers/Servebolt.php',
