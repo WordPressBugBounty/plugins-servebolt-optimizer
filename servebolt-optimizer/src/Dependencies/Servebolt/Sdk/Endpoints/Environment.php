@@ -155,6 +155,27 @@ class Environment extends AbstractEndpoint
     }
 
     /**
+     * Purge OPcache for the given environment.
+     *
+     * @param integer|null $environmentId
+     * @return \Servebolt\Optimizer\Dependencies\GuzzleHttp\Psr7\Response|object|\Servebolt\Optimizer\Dependencies\Servebolt\Sdk\Response
+     * @throws ServeboltInvalidUrlException
+     */
+    public function purgeOpcache(?int $environmentId = null)
+    {
+        if (is_null($environmentId)) {
+            $environmentId = $this->environmentId;
+
+            if (is_null($environmentId)) {
+                throw new ServeboltInvalidUrlException('Environment ID is required');
+            }
+        }
+        $requestUrl = '/environments/' . $environmentId . '/opcache';
+        $httpResponse = $this->httpClient->delete($requestUrl);
+        return $this->response($httpResponse);
+    }
+
+    /**
      * @param string $url
      * @throws ServeboltInvalidUrlException
      */
@@ -256,6 +277,31 @@ class Environment extends AbstractEndpoint
             }
             return http_build_url($parts);
         }, $urls);
+    }
+
+        /**
+     * Update vary headers metadata for an environment.
+     *
+     * @param int|null $environmentId
+     * @param array $data ['vary_headers' => 'ua,le,oc', 'domain' => 'example.com', 'zone' => 'acd|sbcdn']
+     * @return \Servebolt\Optimizer\Dependencies\GuzzleHttp\Psr7\Response|object|\Servebolt\Optimizer\Dependencies\Servebolt\Sdk\Response
+     * @throws ServeboltInvalidUrlException
+     */
+    public function setVaryHeaders(?int $environmentId = null, array $data = [])
+    {
+        if (is_null($environmentId)) {
+            $environmentId = $this->environmentId;
+
+            if (is_null($environmentId)) {
+                throw new ServeboltInvalidUrlException('Environment ID is required');
+            }
+        }
+
+        $data = $this->filterArrayByKeys($data, ['vary_headers', 'domain', 'zone']);
+        $requestUrl = sprintf('/%s/%s/vary-headers', $this->endpoint, $environmentId);
+        $httpResponse = $this->httpClient->patchJson($requestUrl, $data);
+
+        return $this->response($httpResponse);
     }
 
     /**

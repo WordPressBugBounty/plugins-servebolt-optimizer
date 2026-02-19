@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit170747eb4514f32b004a94031e69b8ef
+class ComposerStaticInit27fd1d254d1a0395b678d092a1248a49
 {
     public static $files = array (
         '9f223de0e828b8ed07e6618349e47d68' => __DIR__ . '/../..' . '/src/Servebolt/Helpers/Helpers.php',
@@ -14,27 +14,27 @@ class ComposerStaticInit170747eb4514f32b004a94031e69b8ef
     );
 
     public static $prefixLengthsPsr4 = array (
-        'S' => 
+        'S' =>
         array (
             'Servebolt\\Optimizer\\Dependencies\\' => 33,
             'Servebolt\\Optimizer\\' => 20,
         ),
-        'C' => 
+        'C' =>
         array (
             'Composer\\Installers\\' => 20,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Servebolt\\Optimizer\\Dependencies\\' => 
+        'Servebolt\\Optimizer\\Dependencies\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src/Dependencies',
         ),
-        'Servebolt\\Optimizer\\' => 
+        'Servebolt\\Optimizer\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src/Servebolt',
         ),
-        'Composer\\Installers\\' => 
+        'Composer\\Installers\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
@@ -160,6 +160,8 @@ class ComposerStaticInit170747eb4514f32b004a94031e69b8ef
         'Servebolt\\Optimizer\\AcceleratedDomains\\Prefetching\\ManifestHeaders' => __DIR__ . '/../..' . '/src/Servebolt/AcceleratedDomains/Prefetching/ManifestHeaders.php',
         'Servebolt\\Optimizer\\AcceleratedDomains\\Prefetching\\Prefetching' => __DIR__ . '/../..' . '/src/Servebolt/AcceleratedDomains/Prefetching/Prefetching.php',
         'Servebolt\\Optimizer\\AcceleratedDomains\\Prefetching\\WpPrefetching' => __DIR__ . '/../..' . '/src/Servebolt/AcceleratedDomains/Prefetching/WpPrefetching.php',
+        'Servebolt\\Optimizer\\AcceleratedDomains\\VaryHeaders' => __DIR__ . '/../..' . '/src/Servebolt/AcceleratedDomains/VaryHeaders.php',
+        'Servebolt\\Optimizer\\AcceleratedDomains\\VaryHeadersConfig' => __DIR__ . '/../..' . '/src/Servebolt/AcceleratedDomains/VaryHeadersConfig.php',
         'Servebolt\\Optimizer\\Admin\\AcceleratedDomainsControl\\AcceleratedDomainsControl' => __DIR__ . '/../..' . '/src/Servebolt/Admin/AcceleratedDomainsControl/AcceleratedDomainsControl.php',
         'Servebolt\\Optimizer\\Admin\\AcceleratedDomainsControl\\Ajax\\PurgeActions' => __DIR__ . '/../..' . '/src/Servebolt/Admin/AcceleratedDomainsControl/Ajax/PurgeActions.php',
         'Servebolt\\Optimizer\\Admin\\AcceleratedDomainsImageControl\\AcceleratedDomainsImageResizeControl' => __DIR__ . '/../..' . '/src/Servebolt/Admin/AcceleratedDomainsImageControl/AcceleratedDomainsImageResizeControl.php',
@@ -203,6 +205,7 @@ class ComposerStaticInit170747eb4514f32b004a94031e69b8ef
         'Servebolt\\Optimizer\\CachePurge\\Drivers\\ServeboltCdn' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Drivers/ServeboltCdn.php',
         'Servebolt\\Optimizer\\CachePurge\\Drivers\\ServeboltDriverTrait' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Drivers/ServeboltDriverTrait.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeAllInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeAllInterface.php',
+        'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeOpCacheInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeOpCacheInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgePrefixInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgePrefixInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeServerInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeServerInterface.php',
         'Servebolt\\Optimizer\\CachePurge\\Interfaces\\CachePurgeTagInterface' => __DIR__ . '/../..' . '/src/Servebolt/CachePurge/Interfaces/CachePurgeTagInterface.php',
@@ -485,9 +488,9 @@ class ComposerStaticInit170747eb4514f32b004a94031e69b8ef
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit170747eb4514f32b004a94031e69b8ef::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit170747eb4514f32b004a94031e69b8ef::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit170747eb4514f32b004a94031e69b8ef::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit27fd1d254d1a0395b678d092a1248a49::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit27fd1d254d1a0395b678d092a1248a49::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit27fd1d254d1a0395b678d092a1248a49::$classMap;
 
         }, null, ClassLoader::class);
     }
